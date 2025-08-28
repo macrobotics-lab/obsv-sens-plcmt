@@ -1,0 +1,33 @@
+p1 = 1, p2 = 3:
+  step:
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 1.9073486328125e-06
+      median: 6.81
+      Q1: 3.55
+      Q3: 12.47
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 0.0001049041748046875
+      median: 7.49
+      Q1: 3.94
+      Q3: 13.72
+    Baseline:
+      p-value:
+      median: 8.7
+      Q1: 3.84
+      Q3: 16.06
+  sine:
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 1.862645149230957e-09
+      median: 5.16
+      Q1: 3.25
+      Q3: 7.19
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 1.862645149230957e-09
+      median: 5.67
+      Q1: 3.56
+      Q3: 7.9
+    Baseline:
+      p-value:
+      median: 6.78
+      Q1: 4.21
+      Q3: 9.18

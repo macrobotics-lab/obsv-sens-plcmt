@@ -1,0 +1,14 @@
+# This file is used to store parameters for the project
+
+# Length and N are manually set parameters
+beam:
+  # length [m]
+  length: 0.12
+  # number of modes
+  N: 2
+  EI: 0.02243228159006602
+  rho: 2.0011592004352825
+  zetas:
+  - 0.18133439126068174
+  - 1.3852678395634317
+  b: 0.23104111062933733

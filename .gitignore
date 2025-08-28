@@ -1,0 +1,7 @@
+*.asv
+*.toml
+.venv
+__pycache__
+temp_params.json
+.vscode
+*.pkl

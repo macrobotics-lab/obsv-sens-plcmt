@@ -1,0 +1,109 @@
+Position:
+  Candidate Locations: [0, 0.02, 0.04, 0.06, 0.08, 0.1, 0.12]
+  p = 1:
+    Baseline Indices: [3]
+    Maximizing lambda_min:
+      Non-binary selector vector: [0.08365623, 0.08829689, 0.10255, 0.1210514, 
+          0.110191, 0.1133708, 0.3808837]
+      Baseline placement objective value: 3.532642703113636e-08
+    Maximizing trace:
+      Optimal Indices: [6]
+      Optimized objective value: 0.0028401569745818566
+      Baseline placement objective value: 0.00033009759456234197
+    Maximizing log_det:
+      Optimal Indices: [6]
+      Optimized objective value: -42.14745544849279
+      Baseline placement objective value: -47.81766987491401
+  p = 2:
+    Baseline Indices: [3, 6]
+    Maximizing lambda_min:
+      Non-binary selector vector: [0.0909321, 0.09639687, 0.1745948, 0.4805919, 
+          0.1311263, 0.1203307, 0.9060273]
+      Baseline placement objective value: 1.097050215975854e-07
+    Maximizing trace:
+      Optimal Indices: [5, 6]
+      Optimized objective value: 0.004524547778172982
+      Baseline placement objective value: 0.00317025796028544
+    Maximizing log_det:
+      Optimal Indices: [3, 6]
+      Optimized objective value: -40.688518685010216
+      Baseline placement objective value: -40.69282918432723
+  p = 3:
+    Baseline Indices: [2, 4, 6]
+    Maximizing lambda_min:
+      Non-binary selector vector: [0.1455409, 0.1589733, 0.3951042, 0.7754086, 
+          0.3139264, 0.2687918, 0.9422548]
+      Baseline placement objective value: 1.1160981726149122e-07
+    Maximizing trace:
+      Optimal Indices: [4, 5, 6]
+      Optimized objective value: 0.005373347257799277
+      Baseline placement objective value: 0.0037689722920843747
+    Maximizing log_det:
+      Optimal Indices: [3, 5, 6]
+      Optimized objective value: -39.76715984832756
+      Baseline placement objective value: -40.26369423682078
+Strain:
+  Candidate Locations: [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 
+      0.09, 0.1, 0.11, 0.12]
+  p = 1:
+    Baseline Indices: [6]
+    Maximizing lambda_min:
+      Optimal Indices: [0]
+      Optimized objective value: 6.495215183164983e-05
+      Baseline placement objective value: 3.306539986698655e-05
+    Maximizing trace:
+      Optimal Indices: [0]
+      Optimized objective value: 0.07397317176024182
+      Baseline placement objective value: 0.011051787951349867
+    Maximizing log_det:
+      Optimal Indices: [0]
+      Optimized objective value: -22.119673152819885
+      Baseline placement objective value: -27.78988795557028
+  p = 2:
+    Baseline Indices: [0, 6]
+    Maximizing lambda_min:
+      Optimal Indices: [0, 6]
+      Optimized objective value: 0.00010274184226915027
+      Baseline placement objective value: 0.00010274295980191449
+    Maximizing trace:
+      Optimal Indices: [0, 1]
+      Optimized objective value: 0.12925637823055433
+      Baseline placement objective value: 0.0850249597117247
+    Maximizing log_det:
+      Optimal Indices: [0, 1]
+      Optimized objective value: -20.31779463106017
+      Baseline placement objective value: -20.66504726157564
+  p = 3:
+    Baseline Indices: [0, 4, 8]
+    Maximizing lambda_min:
+      Optimal Indices: [0, 6, 7]
+      Optimized objective value: 0.00013726996342434603
+      Baseline placement objective value: 0.00010452867979085898
+    Maximizing trace:
+      Optimal Indices: [0, 1, 2]
+      Optimized objective value: 0.16971656615967598
+      Baseline placement objective value: 0.09940897931435043
+    Maximizing log_det:
+      Optimal Indices: [0, 1, 6]
+      Optimized objective value: -19.237870281756827
+      Baseline placement objective value: -20.235912314378112
+Both:
+  Position Candidate Locations: [0, 0.02, 0.04, 0.06, 0.08]
+  Strain Candidate Locations: [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 
+      0.08]
+  p1 = 1, p2 = 3:
+    Baseline Indices Position: [3]
+    Baseline Indices Strain: [0, 4, 8]
+    Maximizing lambda_min:
+      Non-binary selector vector Position: [0.09155968, 0.08941754, 0.2041725, 
+          0.4655418, 0.1493085]
+      Optimal Indices Strain: [0, 6, 7]
+      Optimized objective value: 0.00013728198471171565
+    Maximizing trace:
+      Optimal Indices Position: [4]
+      Optimal Indices Strain: [0, 1, 2]
+      Optimized objective value: 0.17056536078689438
+    Maximizing log_det:
+      Optimal Indices Position: [4]
+      Optimal Indices Strain: [0, 1, 6]
+      Optimized objective value: -19.223389523317266

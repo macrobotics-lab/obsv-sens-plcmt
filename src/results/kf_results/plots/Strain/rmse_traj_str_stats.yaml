@@ -1,0 +1,128 @@
+step:
+  p = 1:
+    $\lambda_{\min}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 9.5367431640625e-07
+      median: 11.46
+      Q1: 5.24
+      Q3: 20.98
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 9.5367431640625e-07
+      median: 11.46
+      Q1: 5.24
+      Q3: 20.98
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 9.5367431640625e-07
+      median: 11.46
+      Q1: 5.24
+      Q3: 20.98
+    Baseline:
+      p-value:
+      median: 17.65
+      Q1: 14.17
+      Q3: 34.78
+  p = 2:
+    $\lambda_{\min}(\mathbf{W}_{\mathrm{o}})$:
+      p-value:
+      median: 11.55
+      Q1: 5.28
+      Q3: 21.15
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 9.5367431640625e-07
+      median: 10.14
+      Q1: 4.63
+      Q3: 18.56
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 9.5367431640625e-07
+      median: 10.14
+      Q1: 4.63
+      Q3: 18.56
+    Baseline:
+      p-value:
+      median: 11.55
+      Q1: 5.28
+      Q3: 21.15
+  p = 3:
+    $\lambda_{\min}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 9.5367431640625e-07
+      median: 12.12
+      Q1: 5.54
+      Q3: 22.2
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 9.5367431640625e-07
+      median: 8.88
+      Q1: 4.06
+      Q3: 16.26
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 9.5367431640625e-07
+      median: 10.26
+      Q1: 4.68
+      Q3: 18.78
+    Baseline:
+      p-value:
+      median: 10.21
+      Q1: 4.66
+      Q3: 18.69
+sine:
+  p = 1:
+    $\lambda_{\min}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 1.862645149230957e-09
+      median: 8.82
+      Q1: 5.5
+      Q3: 12.15
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 1.862645149230957e-09
+      median: 8.82
+      Q1: 5.5
+      Q3: 12.15
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 1.862645149230957e-09
+      median: 8.82
+      Q1: 5.5
+      Q3: 12.15
+    Baseline:
+      p-value:
+      median: 15.75
+      Q1: 13.18
+      Q3: 19.13
+  p = 2:
+    $\lambda_{\min}(\mathbf{W}_{\mathrm{o}})$:
+      p-value:
+      median: 8.88
+      Q1: 5.52
+      Q3: 12.23
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 1.862645149230957e-09
+      median: 7.8
+      Q1: 4.86
+      Q3: 10.74
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 1.862645149230957e-09
+      median: 7.8
+      Q1: 4.86
+      Q3: 10.74
+    Baseline:
+      p-value:
+      median: 8.88
+      Q1: 5.52
+      Q3: 12.23
+  p = 3:
+    $\lambda_{\min}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 1.862645149230957e-09
+      median: 9.31
+      Q1: 5.78
+      Q3: 12.83
+    $\mathrm{tr}(\mathbf{W}_{\mathrm{o}})$:
+      p-value: 1.862645149230957e-09
+      median: 6.83
+      Q1: 4.25
+      Q3: 9.41
+    $\log(\det(\mathbf{W}_{\mathrm{o}}))$:
+      p-value: 1.862645149230957e-09
+      median: 7.88
+      Q1: 4.9
+      Q3: 10.86
+    Baseline:
+      p-value:
+      median: 7.84
+      Q1: 4.87
+      Q3: 10.81
