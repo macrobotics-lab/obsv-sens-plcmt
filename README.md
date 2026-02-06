@@ -1,6 +1,6 @@
 # Observability-Informed Optimal Sensor Placement for Soft Robots
 
-This repository contains the companion code for our submission to IEEE Robotics and Automation Letters titled "Observability-Informed Optimal Sensor Placement for Soft Robots". 
+This repository contains the companion code for our IEEE RoboSoft 2026 Conference paper titled "Observability-Informed Optimal Sensor Placement for Soft Robots". 
 
 ## Getting Started
 
